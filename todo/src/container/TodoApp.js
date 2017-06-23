@@ -5,7 +5,7 @@ import * as actions from '../actions/index';
 import TodoList from '../components/TodoList';
 import TodoAdd from '../components/TodoAdd';
 
-export default class TodoApp extends Component {
+export class TodoApp extends Component {
   render() {
     const { todos, todoActions } = this.props;
 
